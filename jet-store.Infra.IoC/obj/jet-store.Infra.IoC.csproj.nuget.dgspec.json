@@ -1,7 +1,7 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\luanr\\OneDrive\\Documentos\\Projetos\\jet-store\\jet-store.Services\\jet-store.Services.csproj": {}
+    "C:\\Users\\luanr\\OneDrive\\Documentos\\Projetos\\jet-store\\jet-store.Infra.IoC\\jet-store.Infra.IoC.csproj": {}
   },
   "projects": {
     "C:\\Users\\luanr\\OneDrive\\Documentos\\Projetos\\jet-store\\jet-store.Domain\\jet-store.Domain.csproj": {
@@ -56,14 +56,14 @@
         }
       }
     },
-    "C:\\Users\\luanr\\OneDrive\\Documentos\\Projetos\\jet-store\\jet-store.Services\\jet-store.Services.csproj": {
+    "C:\\Users\\luanr\\OneDrive\\Documentos\\Projetos\\jet-store\\jet-store.Infra.IoC\\jet-store.Infra.IoC.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\luanr\\OneDrive\\Documentos\\Projetos\\jet-store\\jet-store.Services\\jet-store.Services.csproj",
-        "projectName": "jet-store.Services",
-        "projectPath": "C:\\Users\\luanr\\OneDrive\\Documentos\\Projetos\\jet-store\\jet-store.Services\\jet-store.Services.csproj",
+        "projectUniqueName": "C:\\Users\\luanr\\OneDrive\\Documentos\\Projetos\\jet-store\\jet-store.Infra.IoC\\jet-store.Infra.IoC.csproj",
+        "projectName": "jet-store.Infra.IoC",
+        "projectPath": "C:\\Users\\luanr\\OneDrive\\Documentos\\Projetos\\jet-store\\jet-store.Infra.IoC\\jet-store.Infra.IoC.csproj",
         "packagesPath": "C:\\Users\\luanr\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\luanr\\OneDrive\\Documentos\\Projetos\\jet-store\\jet-store.Services\\obj\\",
+        "outputPath": "C:\\Users\\luanr\\OneDrive\\Documentos\\Projetos\\jet-store\\jet-store.Infra.IoC\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\luanr\\AppData\\Roaming\\NuGet\\NuGet.Config"

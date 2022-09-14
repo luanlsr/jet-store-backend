@@ -7,4 +7,8 @@
     <Nullable>enable</Nullable>
   </PropertyGroup>
 
+  <ItemGroup>
+    <ProjectReference Include="..\jet-store.Domain\jet-store.Domain.csproj" />
+  </ItemGroup>
+
 </Project>

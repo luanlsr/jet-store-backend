@@ -7,9 +7,11 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "jet-store.Domain", "jet-sto
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "jet-store.Services", "jet-store.Services\jet-store.Services.csproj", "{BE54422F-E0E4-48CC-AAB9-7666A950C6A8}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "jet-store.Repository", "jet-store.Repository\jet-store.Repository.csproj", "{11164B1A-1600-45BA-AA96-FD6A05D9B151}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "jet-store.Infra.Data", "jet-store.Infra.Data\jet-store.Infra.Data.csproj", "{11164B1A-1600-45BA-AA96-FD6A05D9B151}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "jet-store.Application", "jet-store.Application\jet-store.Application.csproj", "{4A52E243-647D-4274-BF16-0656E63DB791}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "jet-store.Api", "jet-store.Api\jet-store.Api.csproj", "{4A52E243-647D-4274-BF16-0656E63DB791}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "jet-store.Infra.IoC", "jet-store.Infra.IoC\jet-store.Infra.IoC.csproj", "{A63E0B8E-D5BD-41EC-AB8B-423BC51FCF81}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -36,5 +38,9 @@ Global
 		{4A52E243-647D-4274-BF16-0656E63DB791}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{4A52E243-647D-4274-BF16-0656E63DB791}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{4A52E243-647D-4274-BF16-0656E63DB791}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A63E0B8E-D5BD-41EC-AB8B-423BC51FCF81}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A63E0B8E-D5BD-41EC-AB8B-423BC51FCF81}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A63E0B8E-D5BD-41EC-AB8B-423BC51FCF81}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A63E0B8E-D5BD-41EC-AB8B-423BC51FCF81}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 EndGlobal

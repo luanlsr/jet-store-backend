@@ -2,13 +2,13 @@
 
   <PropertyGroup>
     <TargetFramework>net6.0</TargetFramework>
-    <RootNamespace>jet_store.Domain</RootNamespace>
+    <RootNamespace>jet_store.Infrastructure</RootNamespace>
     <ImplicitUsings>enable</ImplicitUsings>
     <Nullable>enable</Nullable>
   </PropertyGroup>
 
   <ItemGroup>
-    <Folder Include="Entities\Contracts" />
+    <ProjectReference Include="..\jet-store.Domain\jet-store.Domain.csproj" />
   </ItemGroup>
 
 </Project>
