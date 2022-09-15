@@ -5,7 +5,7 @@ VisualStudioVersion = 17.0.31903.59
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "jet-store.Domain", "jet-store.Domain\jet-store.Domain.csproj", "{8A32B8DA-641D-42AD-84FE-8066F51CF478}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "jet-store.Services", "jet-store.Services\jet-store.Services.csproj", "{BE54422F-E0E4-48CC-AAB9-7666A950C6A8}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "jet-store.Application", "jet-store.Application\jet-store.Application.csproj", "{BE54422F-E0E4-48CC-AAB9-7666A950C6A8}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "jet-store.Infra.Data", "jet-store.Infra.Data\jet-store.Infra.Data.csproj", "{11164B1A-1600-45BA-AA96-FD6A05D9B151}"
 EndProject

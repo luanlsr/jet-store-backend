@@ -82,6 +82,20 @@
           "Microsoft.AspNetCore.App"
         ]
       },
+      "jet-store.Application/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v6.0",
+        "dependencies": {
+          "FluentValidation": "11.2.2",
+          "jet-store.Domain": "1.0.0"
+        },
+        "compile": {
+          "bin/placeholder/jet-store.Application.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/jet-store.Application.dll": {}
+        }
+      },
       "jet-store.Domain/1.0.0": {
         "type": "project",
         "framework": ".NETCoreApp,Version=v6.0",
@@ -103,20 +117,6 @@
         },
         "runtime": {
           "bin/placeholder/jet-store.Infra.IoC.dll": {}
-        }
-      },
-      "jet-store.Services/1.0.0": {
-        "type": "project",
-        "framework": ".NETCoreApp,Version=v6.0",
-        "dependencies": {
-          "FluentValidation": "11.2.2",
-          "jet-store.Domain": "1.0.0"
-        },
-        "compile": {
-          "bin/placeholder/jet-store.Services.dll": {}
-        },
-        "runtime": {
-          "bin/placeholder/jet-store.Services.dll": {}
         }
       }
     }
@@ -268,6 +268,11 @@
         "swashbuckle.aspnetcore.swaggerui.nuspec"
       ]
     },
+    "jet-store.Application/1.0.0": {
+      "type": "project",
+      "path": "../jet-store.Application/jet-store.Application.csproj",
+      "msbuildProject": "../jet-store.Application/jet-store.Application.csproj"
+    },
     "jet-store.Domain/1.0.0": {
       "type": "project",
       "path": "../jet-store.Domain/jet-store.Domain.csproj",
@@ -277,18 +282,13 @@
       "type": "project",
       "path": "../jet-store.Infra.IoC/jet-store.Infra.IoC.csproj",
       "msbuildProject": "../jet-store.Infra.IoC/jet-store.Infra.IoC.csproj"
-    },
-    "jet-store.Services/1.0.0": {
-      "type": "project",
-      "path": "../jet-store.Services/jet-store.Services.csproj",
-      "msbuildProject": "../jet-store.Services/jet-store.Services.csproj"
     }
   },
   "projectFileDependencyGroups": {
     "net6.0": [
       "Swashbuckle.AspNetCore >= 6.2.3",
-      "jet-store.Infra.IoC >= 1.0.0",
-      "jet-store.Services >= 1.0.0"
+      "jet-store.Application >= 1.0.0",
+      "jet-store.Infra.IoC >= 1.0.0"
     ]
   },
   "packageFolders": {
@@ -316,11 +316,11 @@
         "net6.0": {
           "targetAlias": "net6.0",
           "projectReferences": {
+            "C:\\Users\\luanr\\OneDrive\\Documentos\\Projetos\\jet-store\\jet-store.Application\\jet-store.Application.csproj": {
+              "projectPath": "C:\\Users\\luanr\\OneDrive\\Documentos\\Projetos\\jet-store\\jet-store.Application\\jet-store.Application.csproj"
+            },
             "C:\\Users\\luanr\\OneDrive\\Documentos\\Projetos\\jet-store\\jet-store.Infra.IoC\\jet-store.Infra.IoC.csproj": {
               "projectPath": "C:\\Users\\luanr\\OneDrive\\Documentos\\Projetos\\jet-store\\jet-store.Infra.IoC\\jet-store.Infra.IoC.csproj"
-            },
-            "C:\\Users\\luanr\\OneDrive\\Documentos\\Projetos\\jet-store\\jet-store.Services\\jet-store.Services.csproj": {
-              "projectPath": "C:\\Users\\luanr\\OneDrive\\Documentos\\Projetos\\jet-store\\jet-store.Services\\jet-store.Services.csproj"
             }
           }
         }

@@ -10,7 +10,7 @@
   <ItemGroup>
     <ProjectReference Include="..\jet-store.Domain\jet-store.Domain.csproj" />
     <ProjectReference Include="..\jet-store.Infra.IoC\jet-store.Infra.IoC.csproj" />
-    <ProjectReference Include="..\jet-store.Services\jet-store.Services.csproj" />
+    <ProjectReference Include="..\jet-store.Application\jet-store.Application.csproj" />
   </ItemGroup>
 
   <ItemGroup>

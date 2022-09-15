@@ -1,0 +1,15 @@
+C:\Users\luanr\OneDrive\Documentos\Projetos\jet-store\jet-store.Application\obj\Debug\net6.0\jet-store.Application.csproj.AssemblyReference.cache
+C:\Users\luanr\OneDrive\Documentos\Projetos\jet-store\jet-store.Application\obj\Debug\net6.0\jet-store.Application.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\luanr\OneDrive\Documentos\Projetos\jet-store\jet-store.Application\obj\Debug\net6.0\jet-store.Application.AssemblyInfoInputs.cache
+C:\Users\luanr\OneDrive\Documentos\Projetos\jet-store\jet-store.Application\obj\Debug\net6.0\jet-store.Application.AssemblyInfo.cs
+C:\Users\luanr\OneDrive\Documentos\Projetos\jet-store\jet-store.Application\obj\Debug\net6.0\jet-store.Application.csproj.CoreCompileInputs.cache
+C:\Users\luanr\OneDrive\Documentos\Projetos\jet-store\jet-store.Application\bin\Debug\net6.0\jet-store.Application.deps.json
+C:\Users\luanr\OneDrive\Documentos\Projetos\jet-store\jet-store.Application\bin\Debug\net6.0\jet-store.Application.dll
+C:\Users\luanr\OneDrive\Documentos\Projetos\jet-store\jet-store.Application\bin\Debug\net6.0\jet-store.Application.pdb
+C:\Users\luanr\OneDrive\Documentos\Projetos\jet-store\jet-store.Application\bin\Debug\net6.0\jet-store.Domain.dll
+C:\Users\luanr\OneDrive\Documentos\Projetos\jet-store\jet-store.Application\bin\Debug\net6.0\jet-store.Domain.pdb
+C:\Users\luanr\OneDrive\Documentos\Projetos\jet-store\jet-store.Application\obj\Debug\net6.0\jet-store.Application.csproj.CopyComplete
+C:\Users\luanr\OneDrive\Documentos\Projetos\jet-store\jet-store.Application\obj\Debug\net6.0\jet-store.Application.dll
+C:\Users\luanr\OneDrive\Documentos\Projetos\jet-store\jet-store.Application\obj\Debug\net6.0\refint\jet-store.Application.dll
+C:\Users\luanr\OneDrive\Documentos\Projetos\jet-store\jet-store.Application\obj\Debug\net6.0\jet-store.Application.pdb
+C:\Users\luanr\OneDrive\Documentos\Projetos\jet-store\jet-store.Application\obj\Debug\net6.0\ref\jet-store.Application.dll
