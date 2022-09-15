@@ -1,20 +1,22 @@
 ﻿using jet_store.Domain.Validations;
 
-namespace jet_store.Domain;
-public class Products
+namespace jet_store.Domain.Entities;
+public class Product
 {
-    public Guid Id { get; set; }
+    public int Id { get; set; }
     public string Name { get; set; }
     public string Description { get; set; }
     public int Stock { get; set; }
     public bool Status { get; set; }
     public decimal Price { get; set; }
-    
     public Image Image { get; set; }
 
-    public Products(Guid id, string name, string description, int stock, decimal price)
+    public Product(int id, string name, string description, int stock, decimal price, Image image)
     {
         Id = id;
+        Name = name;
+        Description = description;
+        Image = image;
         Validation(name, description, stock, price);
     }
 

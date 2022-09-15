@@ -1,12 +1,12 @@
-﻿using jet_store.Domain;
+﻿using jet_store.Domain.Entities;
 using Microsoft.EntityFrameworkCore;
 using Microsoft.EntityFrameworkCore.Metadata.Builders;
 
-namespace jet_store.Infra.Data.CTO;
+namespace jet_store.Infra.Data.Mapping;
 
-public class ProductCto : IEntityTypeConfiguration<Products>
+public class ProductMapping : IEntityTypeConfiguration<Product>
 {
-    public void Configure(EntityTypeBuilder<Products> builder)
+    public void Configure(EntityTypeBuilder<Product> builder)
     {
         builder.ToTable("products");
         builder.HasKey(c => c.Id);

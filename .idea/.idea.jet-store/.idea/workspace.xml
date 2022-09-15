@@ -9,11 +9,39 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="18744443-7698-4eb3-aacd-da739c4b7e80" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/jet-store.Infra.Data/DTO/ProductDto.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/jet-store.Domain/Contracts/Repositories/IRepository.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/jet-store.Infra.Data/Repositories/Repository.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/jet-store.Services/DTOs/ImageDto.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/jet-store.Services/DTOs/ProductDto.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/jet-store.Services/DTOs/Validations/ProductDtoValidator.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/.idea.jet-store/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.jet-store/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/jet-store.Api/obj/Debug/net6.0/jet-store.Api.assets.cache" beforeDir="false" afterPath="$PROJECT_DIR$/jet-store.Api/obj/Debug/net6.0/jet-store.Api.assets.cache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/jet-store.Api/obj/Debug/net6.0/jet-store.Api.csproj.AssemblyReference.cache" beforeDir="false" afterPath="$PROJECT_DIR$/jet-store.Api/obj/Debug/net6.0/jet-store.Api.csproj.AssemblyReference.cache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/jet-store.Api/obj/jet-store.Api.csproj.nuget.dgspec.json" beforeDir="false" afterPath="$PROJECT_DIR$/jet-store.Api/obj/jet-store.Api.csproj.nuget.dgspec.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/jet-store.Api/obj/project.assets.json" beforeDir="false" afterPath="$PROJECT_DIR$/jet-store.Api/obj/project.assets.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/jet-store.Api/obj/project.nuget.cache" beforeDir="false" afterPath="$PROJECT_DIR$/jet-store.Api/obj/project.nuget.cache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/jet-store.Api/obj/rider.project.restore.info" beforeDir="false" afterPath="$PROJECT_DIR$/jet-store.Api/obj/rider.project.restore.info" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/jet-store.Domain/Entities/Products.cs" beforeDir="false" afterPath="$PROJECT_DIR$/jet-store.Domain/Entities/Product.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/jet-store.Domain/Repositories/IRepository.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/jet-store.Domain/jet-store.Domain.csproj" beforeDir="false" afterPath="$PROJECT_DIR$/jet-store.Domain/jet-store.Domain.csproj" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/jet-store.Domain/obj/rider.project.restore.info" beforeDir="false" afterPath="$PROJECT_DIR$/jet-store.Domain/obj/rider.project.restore.info" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/jet-store.Infra.Data/Context/Context.cs" beforeDir="false" afterPath="$PROJECT_DIR$/jet-store.Infra.Data/Context/Context.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/jet-store.Infra.Data/jet-store.Infra.Data.csproj" beforeDir="false" afterPath="$PROJECT_DIR$/jet-store.Infra.Data/jet-store.Infra.Data.csproj" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/jet-store.Infra.Data/obj/Debug/net6.0/jet-store.Infra.Data.GeneratedMSBuildEditorConfig.editorconfig" beforeDir="false" afterPath="$PROJECT_DIR$/jet-store.Infra.Data/obj/Debug/net6.0/jet-store.Infra.Data.GeneratedMSBuildEditorConfig.editorconfig" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/jet-store.Infra.Data/DTO/ProductDto.cs" beforeDir="false" afterPath="$PROJECT_DIR$/jet-store.Infra.Data/Mapping/ProductMapping.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/jet-store.Infra.Data/obj/Debug/net6.0/jet-store.Infra.Data.assets.cache" beforeDir="false" afterPath="$PROJECT_DIR$/jet-store.Infra.Data/obj/Debug/net6.0/jet-store.Infra.Data.assets.cache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/jet-store.Infra.Data/obj/Debug/net6.0/jet-store.Infra.Data.csproj.AssemblyReference.cache" beforeDir="false" afterPath="$PROJECT_DIR$/jet-store.Infra.Data/obj/Debug/net6.0/jet-store.Infra.Data.csproj.AssemblyReference.cache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/jet-store.Infra.Data/obj/jet-store.Infra.Data.csproj.nuget.dgspec.json" beforeDir="false" afterPath="$PROJECT_DIR$/jet-store.Infra.Data/obj/jet-store.Infra.Data.csproj.nuget.dgspec.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/jet-store.Infra.Data/obj/project.assets.json" beforeDir="false" afterPath="$PROJECT_DIR$/jet-store.Infra.Data/obj/project.assets.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/jet-store.Infra.Data/obj/project.nuget.cache" beforeDir="false" afterPath="$PROJECT_DIR$/jet-store.Infra.Data/obj/project.nuget.cache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/jet-store.Infra.Data/obj/rider.project.restore.info" beforeDir="false" afterPath="$PROJECT_DIR$/jet-store.Infra.Data/obj/rider.project.restore.info" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/jet-store.Infra.IoC/obj/rider.project.restore.info" beforeDir="false" afterPath="$PROJECT_DIR$/jet-store.Infra.IoC/obj/rider.project.restore.info" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/jet-store.Services/jet-store.Services.csproj" beforeDir="false" afterPath="$PROJECT_DIR$/jet-store.Services/jet-store.Services.csproj" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/jet-store.Services/obj/Debug/net6.0/jet-store.Services.assets.cache" beforeDir="false" afterPath="$PROJECT_DIR$/jet-store.Services/obj/Debug/net6.0/jet-store.Services.assets.cache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/jet-store.Services/obj/Debug/net6.0/jet-store.Services.csproj.AssemblyReference.cache" beforeDir="false" afterPath="$PROJECT_DIR$/jet-store.Services/obj/Debug/net6.0/jet-store.Services.csproj.AssemblyReference.cache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/jet-store.Services/obj/jet-store.Services.csproj.nuget.dgspec.json" beforeDir="false" afterPath="$PROJECT_DIR$/jet-store.Services/obj/jet-store.Services.csproj.nuget.dgspec.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/jet-store.Services/obj/project.assets.json" beforeDir="false" afterPath="$PROJECT_DIR$/jet-store.Services/obj/project.assets.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/jet-store.Services/obj/project.nuget.cache" beforeDir="false" afterPath="$PROJECT_DIR$/jet-store.Services/obj/project.nuget.cache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/jet-store.Services/obj/project.packagespec.json" beforeDir="false" afterPath="$PROJECT_DIR$/jet-store.Services/obj/project.packagespec.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/jet-store.Services/obj/rider.project.restore.info" beforeDir="false" afterPath="$PROJECT_DIR$/jet-store.Services/obj/rider.project.restore.info" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -85,7 +113,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1663123808845</updated>
-      <workItem from="1663123824752" duration="5739000" />
+      <workItem from="1663123824752" duration="8351000" />
     </task>
     <servers />
   </component>
