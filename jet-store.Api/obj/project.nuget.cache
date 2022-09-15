@@ -1,10 +1,12 @@
 {
   "version": 2,
-  "dgSpecHash": "yDSeJY4BV8dE8RW7LTn4HzWUbS/tAGB/oiSbgcCeIMwNLEC6z0RAuvK5LyYgg1LYEUqTuAJVDWLBvLUwJvCR7g==",
+  "dgSpecHash": "t6FlcEBSUQBJN4/YBfEiu9b0lUd+HqRK8cYs1PjzNHLBX7aHgpjrwwPZmDc3f29AtlqcoI+wv6MhYoI/GK9pUg==",
   "success": true,
   "projectFilePath": "C:\\Users\\luanr\\OneDrive\\Documentos\\Projetos\\jet-store\\jet-store.Api\\jet-store.Api.csproj",
   "expectedPackageFiles": [
+    "C:\\Users\\luanr\\.nuget\\packages\\automapper\\11.0.1\\automapper.11.0.1.nupkg.sha512",
     "C:\\Users\\luanr\\.nuget\\packages\\fluentvalidation\\11.2.2\\fluentvalidation.11.2.2.nupkg.sha512",
+    "C:\\Users\\luanr\\.nuget\\packages\\microsoft.csharp\\4.7.0\\microsoft.csharp.4.7.0.nupkg.sha512",
     "C:\\Users\\luanr\\.nuget\\packages\\microsoft.extensions.apidescription.server\\3.0.0\\microsoft.extensions.apidescription.server.3.0.0.nupkg.sha512",
     "C:\\Users\\luanr\\.nuget\\packages\\microsoft.openapi\\1.2.3\\microsoft.openapi.1.2.3.nupkg.sha512",
     "C:\\Users\\luanr\\.nuget\\packages\\swashbuckle.aspnetcore\\6.2.3\\swashbuckle.aspnetcore.6.2.3.nupkg.sha512",

@@ -1,4 +1,4 @@
-﻿namespace jet_store.Services.DTOs;
+﻿namespace jet_store.Application.DTOs;
 
 public class ImageDto
 {

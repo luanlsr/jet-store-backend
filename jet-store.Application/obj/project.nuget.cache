@@ -1,10 +1,12 @@
 {
   "version": 2,
-  "dgSpecHash": "2hhzucz95GRD3qo2xe5xUlF5zrkiEEXoT4V+zYpkAMMk1p3WioqxA3vhYYeMXZylD0HhP1rmSWkJsbxGFAJQ8w==",
+  "dgSpecHash": "5kg8SKi5SyDoIUGf0RYzspiukxGPxEeqhh9mA6nBYXJKjSaBU2vjPfLpBenUXOjOSo5hJYX24h9Ty5h4qAB3vQ==",
   "success": true,
   "projectFilePath": "C:\\Users\\luanr\\OneDrive\\Documentos\\Projetos\\jet-store\\jet-store.Application\\jet-store.Application.csproj",
   "expectedPackageFiles": [
-    "C:\\Users\\luanr\\.nuget\\packages\\fluentvalidation\\11.2.2\\fluentvalidation.11.2.2.nupkg.sha512"
+    "C:\\Users\\luanr\\.nuget\\packages\\automapper\\11.0.1\\automapper.11.0.1.nupkg.sha512",
+    "C:\\Users\\luanr\\.nuget\\packages\\fluentvalidation\\11.2.2\\fluentvalidation.11.2.2.nupkg.sha512",
+    "C:\\Users\\luanr\\.nuget\\packages\\microsoft.csharp\\4.7.0\\microsoft.csharp.4.7.0.nupkg.sha512"
   ],
   "logs": []
 }

@@ -1,6 +1,6 @@
 ﻿using FluentValidation;
 
-namespace jet_store.Services.DTOs.Validations;
+namespace jet_store.Application.DTOs.Validations;
 
 public class ProductDtoValidator : AbstractValidator<ProductDto>
 {
