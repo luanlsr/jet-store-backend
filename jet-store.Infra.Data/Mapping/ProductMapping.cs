@@ -17,8 +17,6 @@ public class ProductMapping : IEntityTypeConfiguration<Product>
             .HasColumnName("product_name");
         builder.Property(c => c.Description)
             .HasColumnName("description");
-        builder.Property(c => c.Image)
-            .HasColumnName("image");
         builder.Property(c => c.Status)
             .HasColumnName("status");
         builder.Property(c => c.Price)

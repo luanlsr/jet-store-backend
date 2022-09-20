@@ -4,72 +4,6 @@
     "C:\\Users\\luanr\\OneDrive\\Documentos\\Projetos\\jet-store\\jet-store.Infra.Data\\jet-store.Infra.Data.csproj": {}
   },
   "projects": {
-    "C:\\Users\\luanr\\OneDrive\\Documentos\\Projetos\\jet-store\\jet-store.Application\\jet-store.Application.csproj": {
-      "version": "1.0.0",
-      "restore": {
-        "projectUniqueName": "C:\\Users\\luanr\\OneDrive\\Documentos\\Projetos\\jet-store\\jet-store.Application\\jet-store.Application.csproj",
-        "projectName": "jet-store.Application",
-        "projectPath": "C:\\Users\\luanr\\OneDrive\\Documentos\\Projetos\\jet-store\\jet-store.Application\\jet-store.Application.csproj",
-        "packagesPath": "C:\\Users\\luanr\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\luanr\\OneDrive\\Documentos\\Projetos\\jet-store\\jet-store.Application\\obj\\",
-        "projectStyle": "PackageReference",
-        "configFilePaths": [
-          "C:\\Users\\luanr\\AppData\\Roaming\\NuGet\\NuGet.Config"
-        ],
-        "originalTargetFrameworks": [
-          "net6.0"
-        ],
-        "sources": {
-          "https://api.nuget.org/v3/index.json": {}
-        },
-        "frameworks": {
-          "net6.0": {
-            "targetAlias": "net6.0",
-            "projectReferences": {
-              "C:\\Users\\luanr\\OneDrive\\Documentos\\Projetos\\jet-store\\jet-store.Domain\\jet-store.Domain.csproj": {
-                "projectPath": "C:\\Users\\luanr\\OneDrive\\Documentos\\Projetos\\jet-store\\jet-store.Domain\\jet-store.Domain.csproj"
-              }
-            }
-          }
-        },
-        "warningProperties": {
-          "warnAsError": [
-            "NU1605"
-          ]
-        }
-      },
-      "frameworks": {
-        "net6.0": {
-          "targetAlias": "net6.0",
-          "dependencies": {
-            "AutoMapper": {
-              "target": "Package",
-              "version": "[11.0.1, )"
-            },
-            "FluentValidation": {
-              "target": "Package",
-              "version": "[11.2.2, )"
-            }
-          },
-          "imports": [
-            "net461",
-            "net462",
-            "net47",
-            "net471",
-            "net472",
-            "net48"
-          ],
-          "assetTargetFallback": true,
-          "warn": true,
-          "frameworkReferences": {
-            "Microsoft.NETCore.App": {
-              "privateAssets": "all"
-            }
-          },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.304\\RuntimeIdentifierGraph.json"
-        }
-      }
-    },
     "C:\\Users\\luanr\\OneDrive\\Documentos\\Projetos\\jet-store\\jet-store.Domain\\jet-store.Domain.csproj": {
       "version": "1.0.0",
       "restore": {
@@ -103,6 +37,12 @@
       "frameworks": {
         "net6.0": {
           "targetAlias": "net6.0",
+          "dependencies": {
+            "Npgsql.EntityFrameworkCore.PostgreSQL.Design": {
+              "target": "Package",
+              "version": "[1.1.0, )"
+            }
+          },
           "imports": [
             "net461",
             "net462",
@@ -144,14 +84,8 @@
           "net6.0": {
             "targetAlias": "net6.0",
             "projectReferences": {
-              "C:\\Users\\luanr\\OneDrive\\Documentos\\Projetos\\jet-store\\jet-store.Application\\jet-store.Application.csproj": {
-                "projectPath": "C:\\Users\\luanr\\OneDrive\\Documentos\\Projetos\\jet-store\\jet-store.Application\\jet-store.Application.csproj"
-              },
               "C:\\Users\\luanr\\OneDrive\\Documentos\\Projetos\\jet-store\\jet-store.Domain\\jet-store.Domain.csproj": {
                 "projectPath": "C:\\Users\\luanr\\OneDrive\\Documentos\\Projetos\\jet-store\\jet-store.Domain\\jet-store.Domain.csproj"
-              },
-              "C:\\Users\\luanr\\OneDrive\\Documentos\\Projetos\\jet-store\\jet-store.Infra.IoC\\jet-store.Infra.IoC.csproj": {
-                "projectPath": "C:\\Users\\luanr\\OneDrive\\Documentos\\Projetos\\jet-store\\jet-store.Infra.IoC\\jet-store.Infra.IoC.csproj"
               }
             }
           }
@@ -168,69 +102,25 @@
           "dependencies": {
             "Microsoft.EntityFrameworkCore": {
               "target": "Package",
-              "version": "[7.0.0-rc.1.22426.7, )"
+              "version": "[6.0.9, )"
+            },
+            "Microsoft.EntityFrameworkCore.Abstractions": {
+              "target": "Package",
+              "version": "[6.0.9, )"
+            },
+            "Microsoft.EntityFrameworkCore.Analyzers": {
+              "target": "Package",
+              "version": "[6.0.9, )"
             },
             "Npgsql.EntityFrameworkCore.PostgreSQL": {
               "target": "Package",
-              "version": "[7.0.0-preview.7, )"
+              "version": "[6.0.7, )"
+            },
+            "Npgsql.EntityFrameworkCore.PostgreSQL.Design": {
+              "target": "Package",
+              "version": "[1.1.0, )"
             }
           },
-          "imports": [
-            "net461",
-            "net462",
-            "net47",
-            "net471",
-            "net472",
-            "net48"
-          ],
-          "assetTargetFallback": true,
-          "warn": true,
-          "frameworkReferences": {
-            "Microsoft.NETCore.App": {
-              "privateAssets": "all"
-            }
-          },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.304\\RuntimeIdentifierGraph.json"
-        }
-      }
-    },
-    "C:\\Users\\luanr\\OneDrive\\Documentos\\Projetos\\jet-store\\jet-store.Infra.IoC\\jet-store.Infra.IoC.csproj": {
-      "version": "1.0.0",
-      "restore": {
-        "projectUniqueName": "C:\\Users\\luanr\\OneDrive\\Documentos\\Projetos\\jet-store\\jet-store.Infra.IoC\\jet-store.Infra.IoC.csproj",
-        "projectName": "jet-store.Infra.IoC",
-        "projectPath": "C:\\Users\\luanr\\OneDrive\\Documentos\\Projetos\\jet-store\\jet-store.Infra.IoC\\jet-store.Infra.IoC.csproj",
-        "packagesPath": "C:\\Users\\luanr\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\luanr\\OneDrive\\Documentos\\Projetos\\jet-store\\jet-store.Infra.IoC\\obj\\",
-        "projectStyle": "PackageReference",
-        "configFilePaths": [
-          "C:\\Users\\luanr\\AppData\\Roaming\\NuGet\\NuGet.Config"
-        ],
-        "originalTargetFrameworks": [
-          "net6.0"
-        ],
-        "sources": {
-          "https://api.nuget.org/v3/index.json": {}
-        },
-        "frameworks": {
-          "net6.0": {
-            "targetAlias": "net6.0",
-            "projectReferences": {
-              "C:\\Users\\luanr\\OneDrive\\Documentos\\Projetos\\jet-store\\jet-store.Domain\\jet-store.Domain.csproj": {
-                "projectPath": "C:\\Users\\luanr\\OneDrive\\Documentos\\Projetos\\jet-store\\jet-store.Domain\\jet-store.Domain.csproj"
-              }
-            }
-          }
-        },
-        "warningProperties": {
-          "warnAsError": [
-            "NU1605"
-          ]
-        }
-      },
-      "frameworks": {
-        "net6.0": {
-          "targetAlias": "net6.0",
           "imports": [
             "net461",
             "net462",

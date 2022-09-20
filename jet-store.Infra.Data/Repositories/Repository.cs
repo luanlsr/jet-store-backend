@@ -8,9 +8,9 @@ namespace jet_store.Infra.Data.Repositories;
 
 public class Repository : IRepository
 {
-    private readonly ProductContext _db;
+    private readonly ProductDbContext _db;
 
-    public Repository(ProductContext db)
+    public Repository(ProductDbContext db)
     {
         _db = db;
     }

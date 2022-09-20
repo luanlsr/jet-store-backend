@@ -28,7 +28,7 @@ public class ProductService : IProductService
         var result = new ProductDtoValidator().Validate(productDto);
         if (!result.IsValid)
         {
-            return ResultService.RequestError<ProductDto>("Problemas de validação", result)
+            return ResultService.RequestError<ProductDto>("Problemas de validação", result);
         }
 
         var product = _mapper.Map<Product>(productDto);

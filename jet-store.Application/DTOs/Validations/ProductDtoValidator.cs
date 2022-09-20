@@ -9,18 +9,22 @@ public class ProductDtoValidator : AbstractValidator<ProductDto>
         RuleFor(x => x.Name)
             .NotEmpty()
             .NotNull()
-            .WithMessage("Nome deve ser informado");
+            .WithName("Nome")
+            .WithMessage("deve ser informado");
         RuleFor(x => x.Description)
             .NotEmpty()
             .NotNull()
-            .WithMessage("Descrição deve ser informado");
+            .WithName("Descrição")
+            .WithMessage("deve ser informado");
         RuleFor(x => x.Price)
             .NotEmpty()
             .NotNull()
-            .WithMessage("Preço deve ser informado");
+            .WithName("Preço")
+            .WithMessage("deve ser informado");
         RuleFor(x => x.Stock)
             .NotEmpty()
             .NotNull()
-            .WithMessage("Estoque deve ser informado");
+            .WithName("Estoque")
+            .WithMessage("deve ser informado");
     }
 }

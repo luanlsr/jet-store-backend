@@ -13,3 +13,7 @@ C:\Users\luanr\OneDrive\Documentos\Projetos\jet-store\jet-store.Infra.IoC\obj\De
 C:\Users\luanr\OneDrive\Documentos\Projetos\jet-store\jet-store.Infra.IoC\obj\Debug\net6.0\refint\jet-store.Infra.IoC.dll
 C:\Users\luanr\OneDrive\Documentos\Projetos\jet-store\jet-store.Infra.IoC\obj\Debug\net6.0\jet-store.Infra.IoC.pdb
 C:\Users\luanr\OneDrive\Documentos\Projetos\jet-store\jet-store.Infra.IoC\obj\Debug\net6.0\ref\jet-store.Infra.IoC.dll
+C:\Users\luanr\OneDrive\Documentos\Projetos\jet-store\jet-store.Infra.IoC\bin\Debug\net6.0\jet-store.Application.dll
+C:\Users\luanr\OneDrive\Documentos\Projetos\jet-store\jet-store.Infra.IoC\bin\Debug\net6.0\jet-store.Infra.Data.dll
+C:\Users\luanr\OneDrive\Documentos\Projetos\jet-store\jet-store.Infra.IoC\bin\Debug\net6.0\jet-store.Infra.Data.pdb
+C:\Users\luanr\OneDrive\Documentos\Projetos\jet-store\jet-store.Infra.IoC\bin\Debug\net6.0\jet-store.Application.pdb
