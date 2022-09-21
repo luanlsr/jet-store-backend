@@ -8,4 +8,6 @@ public class ProductDto
     public int Stock { get; set; }
     public bool Status { get; set; }
     public decimal Price { get; set; }
+    public DateTime CreatedAt { get; set; }
+    public DateTime UpdatedAt { get; set; }
 }

@@ -23,5 +23,9 @@ public class ProductMapping : IEntityTypeConfiguration<Product>
             .HasColumnName("price");
         builder.Property(c => c.Stock)
             .HasColumnName("stock");
+        builder.Property(c => c.CreatedAt)
+            .HasColumnName("created_at");
+        builder.Property(c => c.UpdatedAt)
+            .HasColumnName("updated_at");
     }
 }
