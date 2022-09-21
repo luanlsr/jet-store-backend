@@ -46,6 +46,10 @@ public class ProductService : IProductService
     public async Task<ResultService<ProductDto>> GetByIdAsync(int id)
     {
         var product = await _repository.GetProductByIdAsync(id);
+        if (product == null)
+        {
+            return ResultService.Fail<ProductDto>("Produto não encontrado.");
+        }
         return ResultService.Ok<ProductDto>(_mapper.Map<ProductDto>(product));
     }
 }

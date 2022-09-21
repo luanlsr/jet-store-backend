@@ -10,7 +10,35 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="18744443-7698-4eb3-aacd-da739c4b7e80" name="Changes" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/.idea.jet-store/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.jet-store/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/jet-store.Api/Controllers/ProductController.cs" beforeDir="false" afterPath="$PROJECT_DIR$/jet-store.Api/Controllers/ProductController.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/jet-store.Api/Program.cs" beforeDir="false" afterPath="$PROJECT_DIR$/jet-store.Api/Program.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/jet-store.Api/bin/Debug/net6.0/jet-store.Api.dll" beforeDir="false" afterPath="$PROJECT_DIR$/jet-store.Api/bin/Debug/net6.0/jet-store.Api.dll" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/jet-store.Api/bin/Debug/net6.0/jet-store.Api.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/jet-store.Api/bin/Debug/net6.0/jet-store.Api.pdb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/jet-store.Api/bin/Debug/net6.0/jet-store.Application.dll" beforeDir="false" afterPath="$PROJECT_DIR$/jet-store.Api/bin/Debug/net6.0/jet-store.Application.dll" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/jet-store.Api/bin/Debug/net6.0/jet-store.Application.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/jet-store.Api/bin/Debug/net6.0/jet-store.Application.pdb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/jet-store.Api/bin/Debug/net6.0/jet-store.Infra.IoC.dll" beforeDir="false" afterPath="$PROJECT_DIR$/jet-store.Api/bin/Debug/net6.0/jet-store.Infra.IoC.dll" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/jet-store.Api/bin/Debug/net6.0/jet-store.Infra.IoC.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/jet-store.Api/bin/Debug/net6.0/jet-store.Infra.IoC.pdb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/jet-store.Api/obj/Debug/net6.0/jet-store.Api.csproj.AssemblyReference.cache" beforeDir="false" afterPath="$PROJECT_DIR$/jet-store.Api/obj/Debug/net6.0/jet-store.Api.csproj.AssemblyReference.cache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/jet-store.Api/obj/Debug/net6.0/jet-store.Api.dll" beforeDir="false" afterPath="$PROJECT_DIR$/jet-store.Api/obj/Debug/net6.0/jet-store.Api.dll" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/jet-store.Api/obj/Debug/net6.0/jet-store.Api.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/jet-store.Api/obj/Debug/net6.0/jet-store.Api.pdb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/jet-store.Api/obj/Debug/net6.0/ref/jet-store.Api.dll" beforeDir="false" afterPath="$PROJECT_DIR$/jet-store.Api/obj/Debug/net6.0/ref/jet-store.Api.dll" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/jet-store.Api/obj/Debug/net6.0/refint/jet-store.Api.dll" beforeDir="false" afterPath="$PROJECT_DIR$/jet-store.Api/obj/Debug/net6.0/refint/jet-store.Api.dll" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/jet-store.Api/obj/staticwebassets.pack.sentinel" beforeDir="false" afterPath="$PROJECT_DIR$/jet-store.Api/obj/staticwebassets.pack.sentinel" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/jet-store.Application/Services/ProductService.cs" beforeDir="false" afterPath="$PROJECT_DIR$/jet-store.Application/Services/ProductService.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/jet-store.Application/bin/Debug/net6.0/jet-store.Application.dll" beforeDir="false" afterPath="$PROJECT_DIR$/jet-store.Application/bin/Debug/net6.0/jet-store.Application.dll" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/jet-store.Application/bin/Debug/net6.0/jet-store.Application.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/jet-store.Application/bin/Debug/net6.0/jet-store.Application.pdb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/jet-store.Application/obj/Debug/net6.0/jet-store.Application.dll" beforeDir="false" afterPath="$PROJECT_DIR$/jet-store.Application/obj/Debug/net6.0/jet-store.Application.dll" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/jet-store.Application/obj/Debug/net6.0/jet-store.Application.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/jet-store.Application/obj/Debug/net6.0/jet-store.Application.pdb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/jet-store.Application/obj/Debug/net6.0/ref/jet-store.Application.dll" beforeDir="false" afterPath="$PROJECT_DIR$/jet-store.Application/obj/Debug/net6.0/ref/jet-store.Application.dll" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/jet-store.Application/obj/Debug/net6.0/refint/jet-store.Application.dll" beforeDir="false" afterPath="$PROJECT_DIR$/jet-store.Application/obj/Debug/net6.0/refint/jet-store.Application.dll" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/jet-store.Infra.IoC/bin/Debug/net6.0/jet-store.Application.dll" beforeDir="false" afterPath="$PROJECT_DIR$/jet-store.Infra.IoC/bin/Debug/net6.0/jet-store.Application.dll" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/jet-store.Infra.IoC/bin/Debug/net6.0/jet-store.Application.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/jet-store.Infra.IoC/bin/Debug/net6.0/jet-store.Application.pdb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/jet-store.Infra.IoC/bin/Debug/net6.0/jet-store.Infra.IoC.dll" beforeDir="false" afterPath="$PROJECT_DIR$/jet-store.Infra.IoC/bin/Debug/net6.0/jet-store.Infra.IoC.dll" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/jet-store.Infra.IoC/bin/Debug/net6.0/jet-store.Infra.IoC.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/jet-store.Infra.IoC/bin/Debug/net6.0/jet-store.Infra.IoC.pdb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/jet-store.Infra.IoC/obj/Debug/net6.0/jet-store.Infra.IoC.csproj.AssemblyReference.cache" beforeDir="false" afterPath="$PROJECT_DIR$/jet-store.Infra.IoC/obj/Debug/net6.0/jet-store.Infra.IoC.csproj.AssemblyReference.cache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/jet-store.Infra.IoC/obj/Debug/net6.0/jet-store.Infra.IoC.dll" beforeDir="false" afterPath="$PROJECT_DIR$/jet-store.Infra.IoC/obj/Debug/net6.0/jet-store.Infra.IoC.dll" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/jet-store.Infra.IoC/obj/Debug/net6.0/jet-store.Infra.IoC.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/jet-store.Infra.IoC/obj/Debug/net6.0/jet-store.Infra.IoC.pdb" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -105,7 +133,7 @@
       <workItem from="1663123824752" duration="9966000" />
       <workItem from="1663249081814" duration="10638000" />
       <workItem from="1663264255998" duration="1972000" />
-      <workItem from="1663684791079" duration="10094000" />
+      <workItem from="1663684791079" duration="11191000" />
     </task>
     <servers />
   </component>
@@ -128,37 +156,5 @@
   <component name="VcsManagerConfiguration">
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
     <option name="CLEAR_INITIAL_COMMIT_MESSAGE" value="true" />
-  </component>
-  <component name="XDebuggerManager">
-    <breakpoint-manager>
-      <breakpoints>
-        <line-breakpoint enabled="true" type="DotNet Breakpoints">
-          <url>file://$PROJECT_DIR$/jet-store.Api/Controllers/ProductController.cs</url>
-          <line>19</line>
-          <properties documentPath="C:\Users\luanr\OneDrive\Documentos\Projetos\jet-store\jet-store.Api\Controllers\ProductController.cs" initialLine="19" containingFunctionPresentation="method 'Post'">
-            <startOffsets>
-              <option value="512" />
-            </startOffsets>
-            <endOffsets>
-              <option value="513" />
-            </endOffsets>
-          </properties>
-          <option name="timeStamp" value="1" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="DotNet Breakpoints">
-          <url>file://$PROJECT_DIR$/jet-store.Application/Services/ProductService.cs</url>
-          <line>21</line>
-          <properties documentPath="C:\Users\luanr\OneDrive\Documentos\Projetos\jet-store\jet-store.Application\Services\ProductService.cs" initialLine="21" containingFunctionPresentation="method 'CreateAsync'">
-            <startOffsets>
-              <option value="630" />
-            </startOffsets>
-            <endOffsets>
-              <option value="631" />
-            </endOffsets>
-          </properties>
-          <option name="timeStamp" value="2" />
-        </line-breakpoint>
-      </breakpoints>
-    </breakpoint-manager>
   </component>
 </project>
