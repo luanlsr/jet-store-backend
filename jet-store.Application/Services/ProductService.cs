@@ -39,17 +39,52 @@ public class ProductService : IProductService
 
     public async Task<ResultService<ICollection<ProductDto>>> GetAllAsync()
     {
-        var products = await _repository.GetAllProductAsync();
+        var products = await _repository.GetAllAsync();
         return ResultService.Ok<ICollection<ProductDto>>(_mapper.Map<ICollection<ProductDto>>(products));
     }
 
     public async Task<ResultService<ProductDto>> GetByIdAsync(int id)
     {
-        var product = await _repository.GetProductByIdAsync(id);
+        var product = await _repository.GetByIdAsync(id);
         if (product == null)
         {
             return ResultService.Fail<ProductDto>("Produto não encontrado.");
         }
         return ResultService.Ok<ProductDto>(_mapper.Map<ProductDto>(product));
+    }
+
+    public async Task<ResultService> UpdateAsync(ProductDto productDto)
+    {
+        if (productDto == null)
+        {
+            return ResultService.Fail("Objeto deve ser informado.");
+        }
+
+        var validation = new ProductDtoValidator().Validate(productDto);
+        if (!validation.IsValid)
+        {
+            return ResultService.RequestError("Problema com a validação dos campos.", validation);
+        }
+        var product = await _repository.GetByIdAsync(productDto.Id);
+        if (product == null)
+        {
+            return ResultService.Fail("Produto não encontrado.");
+        }
+
+        product = _mapper.Map<ProductDto, Product>(productDto, product);
+        await _repository.UpdateAsync(product);
+        return ResultService.Ok("Produto atualizado com sucesso.");
+    }
+
+    public async Task<ResultService> DeleteAsync(int id)
+    {
+        var product = await _repository.GetByIdAsync(id);
+        if (product == null)
+        {
+            return ResultService.Fail("Produto não encontrado.");
+        }
+
+        await _repository.DeleteAsync(product);
+        return ResultService.Ok("Produto deletado com sucesso.");
     }
 }

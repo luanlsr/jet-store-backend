@@ -34,12 +34,12 @@ public class Repository : IRepository
         await _db.SaveChangesAsync();
     }
     
-    public async Task<Product?> GetProductByIdAsync(int id)
+    public async Task<Product?> GetByIdAsync(int id)
     {
         return await _db.Product.FirstOrDefaultAsync(x => x.Id == id);
     }
 
-    public async Task<ICollection<Product>> GetAllProductAsync()
+    public async Task<ICollection<Product>> GetAllAsync()
     {
         return await _db.Product.ToListAsync();
     }
