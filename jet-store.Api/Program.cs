@@ -15,6 +15,16 @@ builder.Services.AddMvc().AddJsonOptions(options =>
 {
     options.JsonSerializerOptions.DefaultIgnoreCondition = JsonIgnoreCondition.WhenWritingNull;
 });
+builder.Services.AddCors(options =>
+{
+    options.AddDefaultPolicy(policy =>
+    {
+        policy
+            .WithOrigins(builder.Configuration.GetSection("AllowedOrigins").Get<string[]>())
+            .WithHeaders("Authorization")
+            .WithMethods("GET", "POST", "UPDATE", "DELETE");
+    });
+});
 
 var app = builder.Build();
 
@@ -27,6 +37,7 @@ if (app.Environment.IsDevelopment())
 
 app.UseHttpsRedirection();
 
+app.UseCors();
 app.UseAuthorization();
 
 app.MapControllers();
