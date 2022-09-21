@@ -5,4 +5,6 @@ namespace jet_store.Application.Services.Contracts;
 public interface IProductService
 {
     Task<ResultService<ProductDto>> CreateAsync(ProductDto productDto);
+    Task<ResultService<ICollection<ProductDto>>> GetAllAsync();
+    Task<ResultService<ProductDto>> GetByIdAsync(int id);
 }
